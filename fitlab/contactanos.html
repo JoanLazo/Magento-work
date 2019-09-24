@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Contactanos
+    </title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+                <div class="col-12">
+                        <h2 style="text-align: center">Te ayudamos en lo que necesites</h2>
+                        <p style="text-align: center">Aqui encuentras nuestra información, contáctanos y te ayudaremos.</p>
+                    </div>
+        </div>
+        <div class="row">
+                <div class="col-md-6 col-12" style="margin-top: 50px">
+                    <div style="margin-bottom: 20px;">
+                        <p> <i class="fa fa-map-marker" style="color: #c21d2a; font-size: 25px"></i><span style="font-size: 17px"> Sucursales Fitlab: </span></p>
+                        <p style="margin-left: 20px">Albrook Mall, Altaplaza, Multiplaza, Power Club Soho, Power Club Via Argentina, Tocumen Duty Free y Zona Libre.</p>
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                            <p><i class="fa fa-mobile" style="color: #c21d2a ; font-size: 25px"></i><span style="font-size: 17px"> Número de teléfono de servicio al cliente: </span></p>
+                            <p style="margin-left: 20px">302-6222 o 6200-6000</p>
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <p><i class="fa fa-envelope" style="color: #c21d2a; font-size: 15px"></i><span style="font-size: 17px"> Email:</span></p>
+                            <p style="margin-left: 20px"><a href="mailto:web@fitlab.us">web@fitlab.us</a></p>
+                        </div>
+                        <div>
+                            <p><i class="fa fa-users" style="color: #c21d2a ; font-size: 18px"></i><span style="font-size: 17px"> Nuestras redes sociales:</span></p>
+                                        <a href="www.facebook.com/fitlabpa" style="margin-left :20px; font-size: 30px"><img src="{{media url=&quot;facebook.png&quot;}}" alt="" width="40px"></a>
+                                        <a href="www.instagram.com/fitlabpa" style="margin-left:20px; font-size: 30px"><img src="{{media url=&quot;instagram_1_.png&quot;}}" alt="" width="40px"/></a>    
+                        </div>
+                </div>
+                  <div class="col-md-6 col-12"  style="margin-top: 50px">
+                    <form class="needs-validation" novalidate>
+                           <input class="form form-control" type="text" placeholder="Nombre" style="margin-bottom: 20px; border: #de0734 1px solid;" id="validationCustom01" required>
+                           <!-- <div class="invalid-feedback">
+                                Por favor completar este campo.
+                         </div> -->
+                           <input class="form form-control" type="text" placeholder="Email" style="margin-bottom: 20px; border: #de0734 1px solid;" id="validationCustom02" required>
+                           <!-- <div class="invalid-feedback">
+                                Por favor completar este campo.
+                         </div> -->
+                           <textarea class="form form-control" name="textarea" rows="10" cols="50" placeholder="¿En que te podemos ayudar?" style="margin-bottom: 20px; border: #de0734 1px solid;" id="validationCustom03" required></textarea>                   
+                           <!-- <div class="invalid-feedback">
+                                Por favor completar este campo.
+                         </div> -->
+                           <center>
+                                <button  type="submit" class="form form-control">Enviar</button>
+                           </center>
+                        </form>
+                  </div> 
+        </div>
+    </div>
+    <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+                });
+            }, false);
+            })();
+</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>

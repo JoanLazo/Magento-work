@@ -1,0 +1,62 @@
+<div class="page_footer">
+<div id="footer" class="footer-container layout2 footer footer-max">
+<div class="container-fluid container-padding-left maximo-footer footer-desktop">
+<div class="row padding-margin relative">
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 div-footer-1">
+<div class="padding-bottom2 width-100">
+<div>
+
+<div class="">
+<p class="p-footer font-google-sans"><?php echo __('CUENTA')?></p>
+<i class="fa fa-plus"></i>
+</div>
+<div class="footer-mobile">
+<div class="">
+<p class="p-footer-links">
+<a href="<?php echo $this->helper('Rokanthemes\Themeoption\Helper\Data')->getBaseUrl('my-account');?>" class="white font-google-sans"><?php echo __('Mi cuenta')?></a>
+</p>
+</div>
+
+<?php if(!$this->helper('Rokanthemes\Themeoption\Helper\Data')->isLoggedIn()){
+?>
+<div class="">
+<p class="p-footer-links">
+<a href="<?php echo $this->helper('Rokanthemes\Themeoption\Helper\Data')->getBaseUrl('my-account');?>" class="white font-google-sans"><?php echo __('Mis pedidos')?></a>
+</p>
+</div>
+
+<div class="">
+<p class="p-footer-links">
+<a href="<?php echo $this->helper('Rokanthemes\Themeoption\Helper\Data')->getBaseUrl('my-account');?>" class="white font-google-sans"><?php echo __('Mis favoritos')?></a>
+</p>
+</div>
+<?php
+}else{
+?>
+<div class="">
+<p class="p-footer-links">
+<a href="<?php echo $this->helper('Rokanthemes\Themeoption\Helper\Data')->getBaseUrl('my-account/orders');?>" class="white font-google-sans"><?php echo __('Mis pedidos')?></a>
+</p>
+</div>
+
+<div class="">
+<p class="p-footer-links">
+<a href="<?php echo $this->helper('Rokanthemes\Themeoption\Helper\Data')->getBaseUrl('wishlist');?>" class="white font-google-sans"><?php echo __('Mis favoritos')?></a>
+</p>
+</div>
+<?php
+}
+?>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 div-footer-1">
+<div class="width-100">
+<div class="div-footer-order-1">
+<div class="">
+<p class="p-footer font-google-sans"><?php echo __('SOPORTE')?></p>
+<i class="fa fa-plus"></i>
+</div>
+<div class="footer-mobile">

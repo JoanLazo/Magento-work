@@ -1,0 +1,45 @@
+FITLAB / SASCHA FITNESS
+
+BASE DE DATOS
+    IP:				3.130.145.5 (PUBLICA)
+    IP:				172.31.9.107 (PRIVADA)
+    root:			qwHPVW5EVvdev8QwLub4sFmaWvbkWj
+    magento:		SwxvE8HvZMu5knCf3dmRZhGb2Tqy8s
+
+FRONTEND
+    IP:				18.217.253.247 (PUBLICA)
+    IP:				172.31.9.247 (PRIVADA)
+
+BACKEND
+    IP:				18.220.30.129 (PUBLICA)
+    IP:				172.31.5.100 (PRIVADA)
+
+Accesos magento/webdata 56781 con PPK existentes
+
+https://fitlab.klikealo.com/admin_t4siyq/
+ElAdmin		::		aWvbkwev8QwSub4HPju5vZWvE8HxVW
+
+
+
+
+
+THINKPINK
+
+BASE DE DATOS
+    IP:				3.15.113.41 (PUBLICA)
+    IP:				172.31.16.244 (PRIVADA)
+    root:			qwHPVW5EVvdev8QwLub4sFmaWvbkWj
+    magento:		wxvCf3dmTqy8sMu5knS2RZhvZGbE8H
+
+FRONTEND
+    IP:				3.130.99.29 (PUBLICA)
+    IP:				172.31.29.90 (PRIVADA)
+
+BACKEND
+    IP:				3.13.157.103 (PUBLICA)
+    IP:				172.31.21.112 (PRIVADA)
+
+Accesos magento/webdata 56781 con PPK existentes
+
+https://thinkpink.klikealo.com/admin_v199oj/
+ElAdmin		::		b8wev8u5vZWvjaWvbkuHxE4HPVWQwS

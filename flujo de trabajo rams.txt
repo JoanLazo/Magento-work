@@ -1,0 +1,8 @@
+Flujo de trabajo
+
+PRODUCCION - master
+DESARROLLO - dev
+TAREAS - TSK
+ERRORES - BUG
+RELEASE - REL
+SOPORTE - SOP

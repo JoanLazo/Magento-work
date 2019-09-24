@@ -1,0 +1,206 @@
+php bin/magento setup:upgrade && php bin/magento setup:static-content:deploy -f en_US es_PE && bin/magento c:f
+php bin/magento s:up && php bin/magento s:s:d -f && php bin/magento c:c && php bin/magento c:f
+php bin/magento indexer:reindex
+php bin/magento indexer:reset
+ bin/magento i18n:collect-phrases -o /magento/fitlab/traducir.csv -m
+php bin/magento setup:di:compile
+//////////////////////////////////
+    content: '\f813';
+    display: inline-block;
+    font-family: 'porto-icons';
+    vertical-align: top;
+    margin-left: 6px;
+    line-height: 42px;   
+////////////////////////////////
+ git remote remove origin
+//////////////////////////////
+git remote add origin https://github.com/user/repo.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+> origin  https://github.com/user/repo.git (fetch)
+> origin  https://github.com/user/repo.git (push)
+/////////////////////////////
+gyghome.klikealo.com
+jlazo:
+1234567890a
+/////////////////////////////
+
+git branch -D bugfix
+git config --global user.name "Joan Milagros"
+git config --global user.email joan162581@gmai.com
+git checkout -b nueva_rama
+git reset HEAD~1
+///////////////////////////////////////
+bbw
+///////////////////////////////
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-ef400123-a646-422e-a233-a6c526313083"></div>
+
+////////////////////////////////////////////////////
+document.getElementById("susd").src = "./images/bras&brallets/fondo-form/1371-form-bras.png";
+////////////////////////////////////////////////////
+
+
+ <span><?= /* @escapeNotVerified */ __('') ?></span>
+//////////////////////////////////////////////////
+tabla responsiba data que saque
+	data-th="<?= $block->escapeHtml(__('')) ?>"
+////////////////////////////////////////////////////////////////////////////////////
+ <div class="message info empty"><span><?= $block->escapeHtml(__('You have no items in your wish list.')) ?></span></div>
+ <div class="message info empty"><span><?= /* @escapeNotVerified */ __('You have placed no orders.') ?></span></div>
+/////////////////////////////////////////////////////////////////
+colores bbw: 
+#F2F2F2
+
+background: url(../images/icon-cart.png)  no-repeat;
+
+ url(/media/porto/page_bg/flecha-naranja.png);
+////////////////////////////
+
+.attribute.overview
+
+.product.data.items > .item.content{
+		padding: 20px 0 0;
+		border: 0;
+		text-align: left;
+		.description{
+			text-align: left;
+		}
+		table {
+			width: 100%;
+			border-collapse:   inherit;//collapse;
+			border-spacing: 0;
+			max-width: 61%;
+			border: solid #777777 0.5px;
+			margin: auto;
+		}
+	}
+	.product.info.detailed .additional-attributes>tbody>tr>th {
+		padding: 4px 30px 10px 0;
+    		width: 50%;
+		text-align: center;
+		border: solid #777777 0.2px;
+	}
+	.product.info.detailed .additional-attributes>tbody>tr>td {
+		padding: 4px 30px 10px 0;
+		border: solid #777777 0.2px;
+		text-align: center;
+	}
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+
+padding: 0 0px;
+	margin-left: 0px;
+	margin: auto;
+
+    div#popup5 {
+    left: 0px;
+    margin-left: 77%;
+}
+
+877 x 290px
+
+colores fitlab:git st
+color rojo: #c21d2a; #c9192d
+color negro: #1a1615
+ffffff
+ff0000
+000000
+0: oscuro 1: #343232 #434343;
+1: #404040 oscuro1
+2:#595959 oscuro 2
+3: #E20303 ropo
+4:#FD1C1C rojo medio
+5:#FE4D4D rojo claro
+6: #dd3a3f rojo default
+7: rojo rosa: #de0734
+8: azul :#176396
+9]: color breadcrumbs : #f1f2f4
+fitlab, deporte, fitness, ventas online, ecommerce, energía, salud, belleza,Panamá,belleza, ejercicio
+Fitlab tiene ganadores de masa.
+30 de set
+
+.ma-newsletter{
+background-size: 100% 541px;
+}
+
+gris: #898989
+
+.toolbar-products .limiter .control {
+    display: inline-block;
+}
+.page-products .toolbar .limiter {
+    display: none;
+}
+
+<h3><span><?php echo $title;?> </span></h3>
+<p class="des"><?php echo $des;?> </p>
+
+
+transform: skewX(-21deg);
+
+tamaño de imagen tienda: 
+
+width: 126px;
+height: 130px;
+
+ <legend class="legend"><span><?= $block->escapeHtml(__('')) ?></span></legend><br />
+                    <div class="field note no-label"><?= $block->escapeHtml(__('')) ?></div>
+
+/////// icono de header
+action{
+		width: 30px;
+		height: 25px;
+		line-height:25px;
+		text-align: center;
+		position: relative;
+		background: url(../images/icono-carro-1.png)  no-repeat;
+		&:hover{
+			&:before{
+				color: @general_link_hover_color;
+			}
+		}
+		&:before{
+			display: none !important;
+			content: "\e04d";
+			font-family: 'simple-line-icons';
+		}
+		.text{
+			display: none;
+		}
+	}
+
+
+////imagen de registro sanitario//////
+
+<img src="https://user-images.githubusercontent.com/44485081/63385765-3f25cb00-c367-11e9-96b5-86e1b526c8ee.jpg" />
+
+/////// customer-login /////////
+.banner-new-customer {
+    background: url(https://user-images.githubusercontent.com/44485081/64205204-0f91bb00-ce5d-11e9-9945-084b07b2d326.png) no-repeat center;
+    width: 100%;
+    height: 138px;
+    background-size: contain;
+}
+.banner-login-customer {
+    background: url(https://user-images.githubusercontent.com/44485081/64202239-49ab8e80-ce56-11e9-8069-db620344d7d1.png) no-repeat center;
+    width: 100%;
+    height: 136px;
+    background-size: contain;
+}
+
+
+<div class="row">
+    <div class="name-user-header col-md-8 col-5">
+        <p></p>
+    </div>
+    <div class="col-md-4 col-7">
+        <button type="button" role="add-address" title="<?= $block->escapeHtmlAttr(__('ADD ADDRESS')) ?>" class="btn-edit-user" style="text-decoration: none;"><span><?= $block->escapeHtml(__('Add New Address')) ?></span></button>
+    </div>
+    <hr>    
+    <div class="title-dashboard"></div>
+</div>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>footer 3
+    </title>
+</head>
+<body>
+    <footer class="footer-static">
+    <div class="container">
+        <div class="row">
+                <div class="col-md-3">
+                        <center>   
+                                <p class="logo-f"><a href="https://saschafitness.klikealo.com"><img src="{{media url=&quot;wysiwyg/sascha_panama.png&quot;}}" width="165" height="34.6"></a></p>
+                        </center>
+                    </div>
+                
+                        <div class="col-md-3">
+                            <h2 class="footer-title">CUENTA</h2>
+                            <ul class="block-content">
+                                <li class="p-footer"><a href="https://saschafitness.klikealo.com/customer/account/">Mi Cuenta</a></li>
+                            </ul>
+                        
+                        </div>
+
+                        <div class="col-md-3">
+                            <h2 class="footer-title">SASCHA FITNESS</h2>
+                           <ul class="block-content">
+                               <li class="p-footer"><a href="https://saschafitness.klikealo.com/terminos-y-condiciones" >Términos y Condiciones</a></li>
+                               <li class="p-footer"><a href="https://saschafitness.klikealo.com/contact/" >Contáctanos</a></li>
+                               <li class="p-footer"><a href="https://saschafitness.klikealo.com/politicas-de-despacho">Políticas de Despacho</a></li>
+                               <li class="p-footer"><a href="https://saschafitness.klikealo.com/politicas-para-devoluciones">Políticas para Devoluciones</a></li>
+                           </ul>
+                           
+                        </div>
+                        <div class="col-md-3">
+                                <div>
+                                        <h2 class="footer-title">SOPORTE</h2>
+                                        <ul class="block-content">
+                                            <li class="p-footer"><a href="https://saschafitness.klikealo.com/sales/order/history/">Mis Pedidos</a></li>
+                                            <li class="p-footer"><a href="https://saschafitness.klikealo.com/wishlist/index/index/">Mis Favoritos</a></li>
+                                        </ul>  
+                                </div>
+                                   
+                            <center>
+                                <img class="img-footer-verificacion" src="https://fitlabnew.klikealo.com/media/seguridad.png" width="120" height="50">
+                            </center>
+                        </div>
+                       
+                    </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript">
+    require(['jquery'],function($){
+        $(document).ready(function() {
+            $('.footer-title').on('click',function(){
+                var currentElm = $(this);
+                currentElm.next().slideToggle("slow");
+            });
+        });
+    });    
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="footer.js"></script>
+</body>
+</html>
